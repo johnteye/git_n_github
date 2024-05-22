@@ -24,8 +24,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run tests
-      run: python testing_demo/unit_test.py
+    # - name: Run tests
+    #   run: python testing_demo/unit_test.py
 
-    # - name: Run integration tests
-    #   run: python testing_demo/integration_test.py
+    - name: Run integration tests
+      run: python testing_demo/integration_test.py
